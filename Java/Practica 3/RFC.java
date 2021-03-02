@@ -106,7 +106,7 @@ public class RFC {
             case 'x' -> "37";
             case 'y' -> "38";
             case 'z' -> "39";
-            case 'ñ' -> "40";
+            case 164 -> "40";
             default -> null;
         };
     }
@@ -157,7 +157,7 @@ public class RFC {
             case 'x' -> 34;
             case 'y' -> 35;
             case 'z' -> 36;
-            case 'ñ' -> 38;
+            case 164 -> 38;
             default -> -1;
         };
     }
